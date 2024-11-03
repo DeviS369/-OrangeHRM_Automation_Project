@@ -1,6 +1,6 @@
 import pytest
-from pages.login_page import LoginPage
-from pages.admin_page import AdminPage
+from login_page import LoginPage
+from admin_page import AdminPage
 
 def test_admin_page_headers(driver):
     login_page = LoginPage(driver)
