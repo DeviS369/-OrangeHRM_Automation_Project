@@ -1,6 +1,6 @@
 import pytest
-from pages.login_page import LoginPage
-from pages.forgot_password_page import ForgotPasswordPage
+from login_page import LoginPage
+from forgot_password_page import ForgotPasswordPage
 
 def test_valid_login(driver):
     login_page = LoginPage(driver)
